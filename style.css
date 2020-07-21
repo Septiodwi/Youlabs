@@ -19,52 +19,55 @@ body {
 }
 
 .container {
-    width: 100%;
-    margin: 0;
+    width: 90%;
+    margin: auto;
 }
 
 /* header */
 .navbar {
-    background-color: black;
-    position: absolute;
-    left: 130px;
-    width: -0px;
+    width: 100%;
 
+    margin-top: 40px;
 
 }
 
 .logo {
-
-    width: 307px;
-    height: 709px;
-    left: 0px;
-    top: 7px;
-
-
     font-size: 15px;
     line-height: 10px;
+    width: 100%;
+    margin-left: 60px;
+    display: block;
     /* or 73% */
 
 
     color: #856D6D;
 }
 
+.btn-navbar {
+    margin-left: 58%;
+    margin-top: -50px;
+}
+
 .btn-download {
-    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    color: #856D6D;
+    float: left;
+    margin-left: 20px;
     width: 150px;
     height: 50px;
-    left: 700px;
-    top: 20px;
     background-color: transparent;
     border: 1px solid #856D6D;
     box-sizing: border-box;
     border-radius: 10px;
+    margin-top: 0;
+    transition: 0.5s;
 }
 
 .btn-download:hover {
     background-color: thistle;
     border: none;
-
+    margin-top: -5px;
 }
 
 
@@ -74,16 +77,14 @@ body {
 }
 
 .btn-discover {
-    position: absolute;
     width: 150px;
     height: 50px;
-    left: 880px;
-    top: 20px;
     background-color: transparent;
     border: 1px solid #856D6D;
     box-sizing: border-box;
     border-radius: 10px;
 }
+
 
 .btn-discover:hover {
     background-color: thistle;
@@ -97,22 +98,17 @@ body {
 }
 
 /* Content */
-
+/* 
 #header .content {
     display: grid;
     grid-template-columns: 1.4fr 1fr;
     grid-template-rows: 1fr;
-}
+} */
 
 .text-content {
-    position: absolute;
     width: 500px;
     height: 100px;
-    left: 130px;
-    top: 170px;
-
-
-
+    margin-top: 160px;
     font-size: 35px;
     line-height: 50px;
     /* or 104% */
@@ -123,13 +119,8 @@ body {
 }
 
 .text-content-deskripsi {
-    position: absolute;
     width: 625px;
     height: 108px;
-    left: 130px;
-    top: 290px;
-
-
     font-size: 18px;
     line-height: 27px;
 
@@ -138,13 +129,9 @@ body {
 }
 
 .text-content-2 {
-    position: absolute;
     width: 400px;
+    margin-top: 10px;
     height: 72px;
-    left: 130px;
-    top: 400px;
-
-
     font-size: 40px;
     line-height: 72px;
     /* identical to box height */
@@ -153,19 +140,8 @@ body {
     color: #856D6D;
 }
 
-/* .text-content-2::after {
-    content: "";
-    display: block;
-    width: 350px;
-    top: 50%;
-    height: 2px;
-    position: absolute;
-    background-color: #cbcbcb;
-    right: -240px;
-} */
 
 .text-content-deskripsi-2 {
-    position: absolute;
     width: 625px;
     height: 160px;
     left: 94px;
@@ -192,29 +168,23 @@ body {
 }
 
 .table {
-    position: absolute;
-    top: 500px;
-    left: 130px;
     color: gray;
     font-size: 15px;
     line-height: 30px;
 }
 
-.td-1 {
-    position: absolute;
-    /* left: 20px; */
+td.td-1 {
     width: 200px;
-    left: 200px;
     line-height: 30px;
+    margin-left: 200px;
+
 }
 
 .icon {
-    position: absolute;
-    width: 100%;
+    width: 97%;
     height: 190px;
-    left: 0px;
-    top: 782px;
-
+    padding: 20px;
+    margin-top: 40px;
     background: #C4C4C4;
 }
 
@@ -222,43 +192,29 @@ body {
     content: "";
     display: block;
     width: 350px;
-    top: 50%;
-    height: 2px;
     position: absolute;
+    height: 2px;
+    margin-top: -20px;
     background-color: gray;
     left: 470px
 }
 
-.icon-wa {
-    position: absolute;
-    top: 80px;
-    left: 120px;
+.section-logo {
+    margin-left: 20px;
+    margin-top: 80px;
 }
 
-.icon-linkd {
-    position: absolute;
-    top: 80px;
-    left: 200px;
+.icon-medsos {
+    margin-left: 20px;
+    transition: 0.5s;
+    padding: 5px;
 }
 
-.icon-dribbble-2 {
-    position: absolute;
-    top: 80px;
-    left: 280px;
-}
-
-.icon-behance {
-    position: absolute;
-    top: 80px;
-    left: 360px;
-}
 
 .text-icon {
     font-size: 35px;
     float: right;
-    position: absolute;
-    top: 50px;
-    left: 64%;
+    margin-top: 0px;
     line-height: 40px;
     /* or 222% */
 
@@ -270,60 +226,73 @@ body {
 /* section experience */
 
 .text-experience {
-    position: absolute;
+
+    margin-top: 80px;
     width: 400px;
     height: 72px;
-    left: 139px;
-    top: 1006px;
-
     font-size: 40px;
     line-height: 72px;
-    /* identical to box height */
-
-
     color: #856D6D;
 }
 
 .decoration-experience {
-    position: absolute;
     width: 0px;
     height: 718px;
-    left: 203px;
-    top: 1140px;
-
     border: 1px solid #856D6D;
 }
 
 .elipse {
-    position: absolute;
     width: 21px;
     height: 21px;
-    left: 193px;
-    top: 1159px;
-
-
 }
 
 .text-experience-1 {
-    position: absolute;
     width: 304px;
-    height: 72px;
-    left: 242px;
-    top: 1134px;
     font-size: 40px;
     line-height: 70px;
     color: #856D6D;
+    margin-top: -640px;
+    margin-left: 55px;
 
 }
 
-.text-experience-2 {
-    position: absolute;
+.text-experience-custom {
+    margin-top: 230px;
+    margin-left: 110px;
+}
+
+.text-skill {
+    margin-left: 55px;
+    margin-top: 0px;
+    color: #856D6D;
+    font-size: 15px;
+}
+
+.text-custom-frontend {
+    margin-left: 70px;
     width: 366px;
+    margin-top: -50px;
+    margin-left: 110px;
     height: 26px;
-    left: 242px;
-    top: 1202px;
+    font-size: 20px;
+    line-height: 43px;
 
+    color: #856D6D;
+}
 
+.text-skill-frontend {
+    margin-left: 110px;
+    margin-top: 0px;
+    color: #856D6D;
+    font-size: 15px;
+}
+
+.text-experience-2 {
+    margin-left: 70px;
+    width: 366px;
+    margin-top: -50px;
+    margin-left: 55px;
+    height: 26px;
     font-size: 20px;
     line-height: 43px;
 
@@ -331,19 +300,6 @@ body {
 
 }
 
-.text-experience-3 {
-    position: absolute;
-    width: 252px;
-    height: 26px;
-    left: 244px;
-    top: 1235px;
-
-    font-size: 17px;
-    line-height: 36px;
-
-    color: #7F7E7E;
-
-}
 
 .text-description {
     position: absolute;
@@ -358,59 +314,12 @@ body {
 
 }
 
-.text-experience-4 {
-    position: absolute;
-    width: 304px;
-    height: 72px;
-    left: 244px;
-    top: 1530px;
 
-    font-size: 40px;
-    line-height: 70px;
-    /* identical to box height */
-
-
-    color: #856D6D;
-
-}
-
-.text-experience-5 {
-    position: absolute;
-    width: 444px;
-    height: 26px;
-    left: 244px;
-    top: 1598px;
-
-    font-size: 20px;
-    line-height: 43px;
-
-
-    color: #856D6D;
-
-}
-
-.text-experience-6 {
-    position: absolute;
-    width: 444px;
-    height: 26px;
-    left: 244px;
-    top: 1630px;
-
-
-    font-size: 17px;
-    line-height: 36px;
-
-    color: #7F7E7E;
-
-}
 
 .text-description-7 {
-    position: absolute;
+    margin-left: 110px;
     width: 842px;
     height: 43px;
-    left: 246px;
-    top: 1708px;
-
     font-size: 24px;
     line-height: 36px;
 
@@ -422,152 +331,105 @@ body {
 
 /* open education */
 .section-education {
-    position: absolute;
+    padding-top: 20px;
     width: 100%;
     height: 914px;
-    left: 0px;
-    top: 1952px;
-
+    margin-top: 200px;
     background: #C4C4C4;
 }
 
 .text-education {
-    position: absolute;
+    margin-left: 20px;
     width: 300px;
-    height: 72px;
-    left: 139px;
-    top: 0px;
-
-
     font-size: 40px;
-    line-height: 72px;
-    /* identical to box height */
-
-
     color: #856D6D;
 
 }
 
 .decoration-education {
-    position: absolute;
+
     width: 0px;
     height: 718px;
     left: 203px;
     top: 150px;
-
-    border: 1px solid #856D6D;
+    margin border: 1px solid #856D6D;
 }
 
 .text-education-1 {
-    position: absolute;
     width: 366px;
     height: 26px;
-    left: 242px;
-    top: 170px;
-
-
+    margin-left: 55px;
     font-size: 40px;
-    line-height: 70px;
+    margin-top: -650px;
 
     color: #856D6D;
 
 }
 
+.text-education-frontend {
+    margin-top: 150px;
+}
+
 .text-education-2 {
-    position: absolute;
+    margin-left: 55px;
     width: 366px;
     height: 26px;
-    left: 242px;
-    top: 240px;
-
     font-size: 29px;
-    line-height: 43px;
-
     color: #856D6D;
 }
 
 .text-education-3 {
-    position: absolute;
+    margin-left: 55px;
     width: 444px;
     height: 26px;
-    left: 244px;
-    top: 280px;
-
-
     font-size: 17px;
-    line-height: 36px;
-
     color: #7F7E7E;
 
 }
 
 .text-description-education {
-    position: absolute;
+    margin-left: 55px;
     width: 842px;
     height: 43px;
-    left: 244px;
-    top: 330px;
-
     font-size: 24px;
-    line-height: 36px;
-
     color: #7F7E7E;
 }
 
 .text-education-frontend {
-    position: absolute;
+    margin-left: 55px;
     width: 115px;
     height: 72px;
-    left: 244px;
-    top: 530px;
     font-size: 48px;
-    line-height: 72px;
-    /* identical to box height */
-
-
     color: #856D6D;
 
 }
 
 .text-education-4 {
-    position: absolute;
+
     width: 444px;
     height: 26px;
-    left: 244px;
-    top: 600px;
-
+    margin-left: 55px;
     font-size: 29px;
-    line-height: 43px;
-
     color: #856D6D;
+    margin-top: -40px;
 
 }
 
 .text-education-5 {
-    position: absolute;
     width: 252px;
     height: 26px;
-    left: 246px;
-    top: 640px;
-
-
     font-size: 17px;
-    line-height: 36px;
-
-
+    margin-left: 55px;
     color: #7F7E7E;
 
 }
 
 .text-description-education-frontend {
-    position: absolute;
+
     width: 842px;
     height: 43px;
-    left: 246px;
-    top: 700px;
+    margin-left: 55px;
     font-size: 24px;
-    line-height: 36px;
-
     color: #7F7E7E;
 
 }
@@ -578,55 +440,47 @@ body {
 
 /* open reference */
 .text-reference {
-    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
     width: 240px;
     height: 72px;
-    left: 135px;
-    top: 2951px;
-
-
     font-size: 40px;
     line-height: 72px;
-    /* identical to box height */
-
-
     color: #856D6D;
 
 }
 
 .text-description-reference {
-    position: absolute;
     width: 842px;
     height: 254px;
-    left: 252px;
-    top: 3069px;
     font-size: 24px;
-    line-height: 36px;
+    margin-left: 100px;
+    margin-top: 80px;
     color: #7F7E7E;
 
 }
 
+.reference {
+    margin-top: -70px;
+    margin-left: 55px;
+}
+
 .text-description-reference-2 {
-    position: absolute;
     width: 158px;
     height: 97px;
-    left: 252px;
-    top: 3323px;
+    margin-left: 55px;
     font-size: 24px;
-    line-height: 30px;
     font-weight: 600;
     color: #856D6D;
 
 }
 
 .text-description-reference-3 {
-    position: absolute;
     width: 400px;
     height: 97px;
-    left: 252px;
-    top: 3355px;
+    margin-top: -90px;
+    margin-left: 55px;
     font-size: 18px;
-    line-height: 30px;
     color: #7F7E7E;
 
 }
@@ -636,28 +490,19 @@ body {
 
 /* open portofolio */
 .text-section-portofolio {
-    position: absolute;
     width: 226px;
     height: 72px;
-    left: 135px;
-    top: 3494px;
-
     font-size: 40px;
-    line-height: 72px;
-    /* identical to box height */
-
-
+    margin-top: 140px;
     color: #856D6D;
 }
 
 .btn-portofolio {
-    position: absolute;
+    margin-top: -110px;
+    float: right;
     width: 261px;
     height: 70px;
-    left: 942px;
-    top: 3510px;
     background-color: transparent;
-
     border: 1px solid #856D6D;
     box-sizing: border-box;
     border-radius: 10px;
@@ -669,26 +514,32 @@ body {
 }
 
 .btn-text-portofolio {
-    position: absolute;
     width: 209px;
     height: 36px;
-    left: 25px;
-    top: 0px;
+    margin-left: 20px;
     font-size: 24px;
     line-height: 36px;
     color: #856D6D;
 
 }
 
+
+.card-section {
+    width: 100%;
+    margin-left: 50px;
+    float: left;
+}
+
 .card-portofolio {
 
-    position: absolute;
+
     width: 250px;
     height: 276px;
-    left: 135px;
-    top: 3669px;
     padding: 10px;
+    margin-top: 10px;
     border-radius: 10px;
+    float: left;
+    margin-left: 20px;
     background: #C4C4C4;
 }
 
@@ -697,7 +548,7 @@ body {
 }
 
 .text-portofolio {
-    position: absolute;
+
     width: 158px;
     height: 97px;
     left: 20px;
@@ -709,30 +560,16 @@ body {
 }
 
 .img-portofolio {
-    position: absolute;
+
     width: 236px;
     height: 177px;
     left: 15px;
     border-radius: 10px;
 }
 
-.card-portofolio-2 {
-    position: absolute;
-    width: 250px;
-    height: 276px;
-    left: 430px;
-    top: 3669px;
-    padding: 10px;
-    border-radius: 10px;
-    background: #C4C4C4;
-}
-
-.card-portofolio-2:hover {
-    background-color: thistle;
-}
 
 .text-portofolio-2 {
-    position: absolute;
+
     width: 158px;
     height: 97px;
     left: 20px;
@@ -744,30 +581,16 @@ body {
 }
 
 .img-portofolio-2 {
-    position: absolute;
+
     width: 236px;
     height: 177px;
     left: 15px;
     border-radius: 10px;
 }
 
-.card-portofolio-3 {
-    position: absolute;
-    width: 250px;
-    height: 276px;
-    left: 723px;
-    top: 3669px;
-    padding: 10px;
-    border-radius: 10px;
-    background: #C4C4C4;
-}
-
-.card-portofolio-3:hover {
-    background-color: thistle;
-}
 
 .text-portofolio-3 {
-    position: absolute;
+
     width: 158px;
     height: 97px;
     left: 20px;
@@ -779,30 +602,17 @@ body {
 }
 
 .img-portofolio-3 {
-    position: absolute;
+
     width: 236px;
     height: 177px;
     left: 15px;
     border-radius: 10px;
 }
 
-.card-portofolio-4 {
-    position: absolute;
-    width: 250px;
-    height: 276px;
-    left: 1015px;
-    top: 3669px;
-    padding: 10px;
-    border-radius: 10px;
-    background: #C4C4C4;
-}
 
-.card-portofolio-4:hover {
-    background-color: thistle;
-}
 
 .text-portofolio-4 {
-    position: absolute;
+
     width: 158px;
     height: 97px;
     left: 20px;
@@ -814,7 +624,7 @@ body {
 }
 
 .img-portofolio-4 {
-    position: absolute;
+
     width: 236px;
     height: 177px;
     left: 15px;
@@ -827,59 +637,48 @@ body {
 
 /* open extra skill */
 .text-extra-skill {
-    position: absolute;
+    margin-top: -150px;
+    margin-left: 0px;
     width: 236px;
     height: 72px;
-    left: 130px;
-    top: 4108px;
     font-size: 40px;
-    line-height: 72px;
     color: #856D6D;
 }
 
 .elipse-extra-skill {
-    position: absolute;
+    margin-top: 720px;
+    margin-left: 70px;
     width: 158px;
     height: 158px;
-    left: 169px;
-    top: 4300px;
     border-radius: 100px;
-
     border: 2px solid #856D6D;
     box-sizing: border-box;
 }
 
 .text-creative {
-    position: absolute;
     width: 134px;
     height: 54px;
-    left: 20px;
-    top: 130px;
+    margin-top: 50px;
+    margin-left: 15px;
     font-weight: 600;
     font-size: 25px;
-    line-height: 54px;
     color: #856D6D;
 
 }
 
 .text-extra-skill-persen {
-    position: absolute;
     width: 74px;
+    margin-left: 30px;
+    margin-top: 130px;
     height: 54px;
-    left: 40px;
-    top: 25px;
-
     font-size: 36px;
-    line-height: 54px;
-    /* identical to box height */
-
-
     color: #856D6D;
 
 }
 
 .text-logic {
-    position: absolute;
+    margin-top: 50px;
+    margin-left: 45px;
     width: 134px;
     height: 54px;
     left: 50px;
@@ -893,40 +692,44 @@ body {
 
 
 .elipse-extra-skill-2 {
-    position: absolute;
     width: 158px;
     height: 158px;
-    left: 350px;
-    top: 4300px;
+    margin-top: -235px;
+    margin-left: 200px;
     border-radius: 100px;
     border: 2px solid #856D6D;
     box-sizing: border-box;
 }
 
 .text-extra-skill-persen-2 {
-    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
     width: 74px;
     height: 54px;
-    left: 40px;
-    top: 25px;
     font-size: 36px;
     line-height: 54px;
     color: #856D6D;
 
 }
 
+.awards {
+    margin-top: 20px;
+}
+
 .rectangle-extra-skill {
-    position: absolute;
+    margin-left: 570px;
+    margin-top: -285px;
     width: 250px;
     height: 349px;
     left: 703px;
     top: 4180px;
-
+    text-align: center;
+    padding-top: 20px;
     background: #C4C4C4;
 }
 
 .img-cup {
-    position: absolute;
+
     width: 83px;
     height: 83px;
     left: 80px;
@@ -934,11 +737,10 @@ body {
 }
 
 .text-cup {
-    position: absolute;
+    text-align: center;
     width: 30px;
+    margin-left: 110px;
     height: 54px;
-    left: 105px;
-    top: 130px;
     font-size: 36px;
     line-height: 54px;
     color: #856D6D;
@@ -946,11 +748,9 @@ body {
 }
 
 .text-cup-description {
-    position: absolute;
+    margin-left: -20px;
     width: 300px;
     height: 40px;
-    left: 40px;
-    top: 190px;
     font-size: 18px;
     line-height: 27px;
     color: #856D6D;
@@ -958,17 +758,16 @@ body {
 }
 
 .rectangle-extra-skill-2 {
-    position: absolute;
+    margin-left: 850px;
+    margin-top: -368px;
     width: 250px;
-    height: 349px;
-    left: 998px;
-    top: 4180px;
-
+    height: 365px;
     background: #C4C4C4;
 }
 
 .img-medal {
-    position: absolute;
+    padding-top: 20px;
+    margin-left: 80px;
     width: 83px;
     height: 83px;
     left: 80px;
@@ -976,7 +775,7 @@ body {
 }
 
 .text-medal {
-    position: absolute;
+    margin-left: 110px;
     width: 30px;
     height: 54px;
     left: 105px;
@@ -988,8 +787,8 @@ body {
 }
 
 .text-medal-description {
-    position: absolute;
-    width: 300px;
+    margin-left: 70px;
+    width: 200px;
     height: 40px;
     left: 70px;
     top: 190px;
@@ -1003,8 +802,15 @@ body {
 
 
 /* Section contact */
+
+.section-contact {
+    width: 100%;
+    margin-top: 240px;
+
+}
+
 .text-contact {
-    position: absolute;
+
     width: 257px;
     height: 72px;
     left: 130px;
@@ -1029,7 +835,7 @@ body {
 
 
 .input-1 {
-    width: 410px;
+    width: 450px;
     background: transparent;
     border: none;
     border-bottom: 2px solid thistle;
@@ -1039,14 +845,13 @@ body {
     transition: border 0.5s;
     outline: none;
     color: thistle;
-    position: absolute;
-    top: 4900px;
-    left: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
 
 }
 
 .input-2 {
-    width: 410px;
+    width: 450px;
     background: transparent;
     border: none;
     border-bottom: 2px solid thistle;
@@ -1056,15 +861,14 @@ body {
     transition: border 0.5s;
     outline: none;
     color: thistle;
-    position: absolute;
-    top: 4900px;
-    left: 800px;
+    margin-left: 170px;
+
 
 
 }
 
 .input-3 {
-    width: 1020px;
+    width: 1075px;
     background: transparent;
     border: none;
     border-bottom: 2px solid thistle;
@@ -1074,14 +878,13 @@ body {
     transition: border 0.5s;
     outline: none;
     color: thistle;
-    position: absolute;
-    top: 4980px;
-    left: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
 
 }
 
 .input-4 {
-    width: 1020px;
+    width: 1075px;
     background: transparent;
     border: none;
     border-bottom: 2px solid thistle;
@@ -1091,24 +894,30 @@ body {
     transition: border 0.5s;
     outline: none;
     color: thistle;
-    position: absolute;
-    top: 4980px;
-    left: 200px;
-
+    margin-left: 50px;
 }
 
 .btn-submit {
-    position: absolute;
+    margin-top: 30px;
+    margin-left: 70%;
     width: 261px;
     height: 70px;
-    left: 942px;
-    top: 5220px;
     padding: 30px;
     background-color: transparent;
 
     border: 1px solid #856D6D;
     box-sizing: border-box;
     border-radius: 10px;
+}
+
+.btn-text-submit {
+    width: 209px;
+    height: 36px;
+    margin-left: -5px;
+    margin-top: -15px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #856D6D;
 }
 
 .btn-submit:hover {
@@ -1124,12 +933,12 @@ body {
     width: 100%;
     height: 100px;
     background-color: gray;
-    position: absolute;
-    top: 5320px;
+    margin-top: 20px;
+    padding-top: 10px;
 }
 
 .text-copyright {
-    margin: 20px;
+    margin: 40px;
     margin-left: 350px;
     font-size: 20px;
     color: white;
