@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+.navbar {
+    margin-top: 40%;
+    padding: 90%;;
+}
+
+.logo-nav {
+    width: 42px;
+    height: auto;
+}
+
+#top-nav {
+    transition: top 0.5s;
+}
+
+.btn-nav {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 38px;
+gap: 16px;
+font-size: 16px;
+
+background: linear-gradient(90deg, #C84E89 0%, #F15F79 100%);
+box-shadow: 10px 5px 30px rgba(238, 53, 98, 0.62);
+border-radius: 27px;
+color: white;
+border: none;
+}
+
+.text-banner {
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 1000;
+font-size: 63px;
+line-height: 136.5%;
+margin-bottom: 56px;
+    /* or 76px */
+    
+align-items: center;
+letter-spacing: -0.005em;
+color: #020202;
+text-shadow: 5px 5px 49px rgba(0, 0, 0, 0.06);
+}
+
+.parapgraph-banner {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+align-items: center;
+
+color: #292929;
+}
+
+.box-button-hero {
+    display: inline-flex;
+}
+
+
+.box-hero {
+    margin-top: 150px;
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+}
+
+.btn-banner {
+    font-family: 'Mulish';
+    font-weight: 700;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+padding: 10px 38px;
+gap: 16px;
+border: none;
+margin-right: 46px;
+/* Gradient */
+
+background: linear-gradient(90deg, #C84E89 0%, #F15F79 100%);
+box-shadow: 10px 5px 30px rgba(238, 53, 98, 0.62);
+border-radius: 27px;
+color: white;
+}
+
+.download-cv {
+    text-decoration: none;
+}
+
+
+/* About Section Style */
+
+.box-title-about {
+    display: inline;
+}
+
+.box-section-about  {
+    width: auto;
+    height: auto;
+    background-color: #FAFAFA;
+    padding: 4%;
+    margin-top: 100%;
+}
+
+.download-cv {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    border: none;
+color: black;
+
+}
+.parapgraph-about{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 178% */
+    
+    letter-spacing: 0.02em;
+    
+color: #292929;
+}
+
+.box-socmed {
+    display: inline-flex;
+}
+
+.socmed {
+    width: 96px;
+    height: auto;
+}
+
+.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.image-slide-cs {
+    width: 370px;
+  }
+  
+  div.scroll-container img {
+      padding: 6px;
+    }
+    
+    
+    /* Experience Section Style */
+    
+    .section-experience {}
+    
+    
+    /* laboratory Section Style */
+    
+    .img-portofolio {
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+    
+    
+    .box-section-laboratorium {
+        margin-bottom: 10%;
+}
+
+
+/* Contact Section Style */
+
+.box-section-contact {
+    width: 100%;
+    height: auto;
+    background-color: #FAFAFA;
+padding: 4%;
+margin-top: 100%;
+margin-bottom: 10%;
+
+border-radius: 26px;
+background: var(--gradient, linear-gradient(90deg, #C84E89 0%, #F15F79 100%));
+box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.13);
+
+  }
+  
+  .img-contact {
+      width: 133px;
+      height: auto;
+    }
+    
+    .text-contact {
+        color: #FFF;
+        text-shadow: 5px 5px 49px 0px rgba(0, 0, 0, 0.06);
+        font-size: 50px;
+        font-family: Mulish;
+        font-weight: 1000;
+        line-height: 136.5%;
+        letter-spacing: -0.25px;
+    }
+    
+    .paragraph-contact {
+        color: #FFF;
+        font-size: 20px;
+        font-family: Mulish;
+    font-weight: 300;
+    line-height: 35.5px;
+    letter-spacing: 0.4px;
+}
+
+.btn-contact {
+    display: flex;
+    width: 240px;
+    height: 76px;
+    padding: 10px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+background: none ;
+color: white;
+margin-left: 20%;
+
+border-radius: 47px;
+border: 1px solid #FFF;
+box-shadow: 10px 5px 30px 0px rgba(238, 53, 98, 0.62);
+}
+
+
+/* Footer Section Style */
+.center-cs-footer {
+    text-align: left;
+}
+.box-section-footer {
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    padding: 3%;
+    margin-bottom: 3%;
+    
+    background: #000;
+box-shadow: 0px -39px 40px 0px rgba(27, 27, 27, 0.33);
+color: white;
+}
+
+
+.logo-footer {
+    width: 124px;
+    height: auto;
+}
+
+.text-footer {
+color: var(--neutral-ffff, #FFF);
+text-align: right;
+font-size: 16px;
+font-family: Mulish;
+font-weight: 900;
+}
+
+.text-copyright {
+    color: var(--neutral-ffff, #FFF);
+    text-align: right;
+    font-size: 14px;
+    font-family: Mulish;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .text-banner {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .btn-contact {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .box-section-contact {
+        margin: 0px auto;
+        padding: 10%;
+    }
+
+    .box-section-footer  {
+        margin-bottom: 5%;
+    }
+    
+    .box-socmed {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-button-hero {
+        text-align: center;
+    }
+    
+    .btn-banner {
+        width: 50%;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+    
+    .image-slide-cs {
+        width: 100%;
+    }
+    
+    .img-portofolio{
+        width: 100%;
+    }
+    
+    .parapgraph-banner {
+        text-align: center;
+    }
+    
+    .socmed {
+        width: 80px;
+    }
+ 
+    .box-button-hero {
+        display: block;
+    }
+
+    .center-cs-footer {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .text-footer {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .text-copyright {
+        text-align: center;
+    }
+
+    .box-hero {
+        margin-top: 10px;
+    }
+
+    .download-cv {
+        margin-top: 50px;
+    }
+
+    .parapgraph-about{
+        text-align: center 
+    };
+
+    .img-contact {
+        margin: 0px auto;
+      }
+}
